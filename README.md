@@ -10,7 +10,7 @@ None.
 Available variables are listed below, along with default values:
 
     namespace: ""
-    name: ""
+    cronjob_name: ""
     suspend: true
 
 ## Dependencies
@@ -23,7 +23,7 @@ None.
       roles:
         - role: cronjob
         namespace: "frontend"
-        name: "graph-refresh-cronjob"
+        cronjob_name: "graph-refresh-cronjob"
         suspend: false
 
 ## License

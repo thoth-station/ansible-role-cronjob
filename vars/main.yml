@@ -1,4 +1,4 @@
 ---
 namespace: "thoth-test-core"
-name: "package-extract"
-suspend: true
+cronjob_name: ""
+suspend: True
