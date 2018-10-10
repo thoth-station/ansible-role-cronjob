@@ -1,0 +1,3 @@
+---
+  - name: "create Thoth CronJob {{ cronjob_name }}"
+    shell: oc process --namespace "{{ THOTH_INFRA_NAMESPACE  }}" "{{ name }}"-cronjob -p THOTH_SUSPEND_JOB="{{ suspend }}" | oc apply --namespace "{{ namespace }}" -f -
