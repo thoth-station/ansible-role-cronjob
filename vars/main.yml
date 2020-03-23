@@ -1,4 +1,5 @@
 ---
 namespace: "thoth-test-core"
+THOTH_INFRA_NAMESPACE: ""
 cronjob_name: ""
 suspend: True
